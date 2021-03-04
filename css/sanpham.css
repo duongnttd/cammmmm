@@ -1,0 +1,279 @@
+
+body{
+    text-align: 100px;
+    font-size: 20px;
+    
+}
+.form-control{
+    margin: 3px 0px;
+    padding: 5px;
+    border: none;
+    width: 200px;
+    border-radius: 3px;
+    box-shadow: 0 0 3px blue;
+    color: black;
+    outline: none;
+    box-shadow: 0 0 3px blue;
+}
+body{
+    font-size: 18px;
+}
+h2{
+    text-align: center;
+}
+#content-left{
+    margin: 0px;
+    padding: 0px;
+    width: 50%;
+    float: left;
+    margin-bottom: 5px;
+
+}
+#content-right{
+    width: 50%;
+    background-color: blanchedalmond;
+    float: right;
+    margin-bottom: 5px;
+}
+#noi-dung{
+    border-top: 0px  blue;
+    background-color: lightcyan;
+    text-align: left 20px;
+    clear: both;
+    min-height: 40px;
+    text-align: center;
+    line-height: 35px;
+}
+#img{
+    text-align: center;
+}
+.menu{
+    min-height: 50px;
+}
+.menu>ul>li{
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 0 10px;
+    line-height: 30px;
+}
+
+.menu ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color:white;
+    text-align: center;
+}
+
+.menu>ul>li>a{
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: 20px;
+    color:blue;
+    padding: 0 10px;
+    line-height: 40px;
+    font-weight: bolder;
+    display: block;
+}
+
+.menu>ul>li>a:hover{
+    color: red;
+}
+
+.menu>ul>li:hover>ul{
+    display: block;
+}
+
+.menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: blue;
+    text-decoration: none;
+    list-style: none;
+    font-size: larger;
+    font-variant: small-caps;
+    padding: 0 10px;
+}
+
+.menu ul ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray; 
+    position: absolute;
+    display: none;
+}
+
+.menu>ul>ul>a{
+    line-height: 30px;
+    color: white;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+  
+    padding: 0 10px;
+}
+.menu ul ul a:hover{
+    background-color: green;
+    color: white;
+}
+
+.menu>ul>li:hover>ul{
+    display: block;
+}
+#anh{
+    text-align: center;
+}
+strong{
+    color: coral;
+}
+b{
+    color: darkblue;
+}
+a{
+    text-align: center;
+}
+.col-25{
+    width: 25%;
+    float: left;
+}
+.prod{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+}
+.prod>.name{
+    font-variant: small-caps;
+    color: orangered;
+}
+.prod>.image{
+    max-width: 98%;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.prod>.price{
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    font-family: impact;
+    font-size: 25px;
+    color: orangered;
+}
+.prod>.icons{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    width: 25px;
+}
+.prod>.new-icon{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.prod.icons.img{
+    width: 25px;
+}
+h1{
+    text-align: center;
+}
+.menu>ul>li{
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 0 10px;
+    line-height: 30px;
+}
+
+.menu ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color:white;
+    text-align: center;
+}
+
+.menu>ul>li>a{
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: 20px;
+    color:blue;
+    padding: 0 10px;
+    line-height: 40px;
+    font-weight: bolder;
+    display: block;
+}
+
+.menu>ul>li>a:hover{
+    color: red;
+}
+
+.menu>ul>li:hover>ul{
+    display: block;
+}
+
+.menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: blue;
+    text-decoration: none;
+    list-style: none;
+    font-size: larger;
+    font-variant: small-caps;
+    padding: 0 10px;
+}
+
+.menu ul ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray; 
+    position: absolute;
+    display: none;
+}
+
+.menu>ul>ul>a{
+    line-height: 30px;
+    color: white;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+  
+    padding: 0 10px;
+}
+.menu ul ul a:hover{
+    background-color: green;
+    color: white;
+}
+
+.menu>ul>li:hover>ul{
+    display: block;
+}
+.footer{
+    border-top: 5px double blue;
+    line-height: 20px;
+    background-color: lightcyan;
+    text-align: left 20px;
+    font-variant: small-caps;
+    clear: both;
+    min-height: 40px;
+    padding-left: 50px;
+    font-size: 15px;
+}
